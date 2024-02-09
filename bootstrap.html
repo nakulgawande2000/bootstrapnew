@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <link href="bootstrap.min.css" rel="stylesheet"/>
+        <style>
+            .container-size{
+                height: 650px;
+                background-color: #3d626c;
+            }
+            .banner-image{
+                height: 650px;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-image: url("https://mobirise.com/extensions/personam4/assets/images/mbr.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 650px;
+                z-index: 1;
+                opacity: 0.6;
+            }
+            .banner-text{
+                height: 650px;
+                z-index:2
+            }
+            .banner-text span{
+                font-weight:bold;
+                font-size: 60px;
+                font-family: sans-serif;
+            }
+            .banner-text button::before{
+               content: "";
+               position: absolute;
+               top: 0;
+               left: 0;
+               width: 0%;
+               height: 100%;
+               transition: all 1s;
+               z-index: -1;
+            }
+            .banner-text button{
+                color: white;
+                border:  2px solid white;
+                border-radius: 5px;
+                overflow: hidden;
+            }
+            .banner-text button:hover:before{
+                background-color: white;
+                width: 100%;
+            }
+            .banner-text button:hover{
+                color: black;
+            }
+            .four-box div{
+               height: 350px;
+               background-color: aquamarine;
+             
+            }
+            .four-box div:nth-child(1){
+                background-color: #d7edd8;
+            }
+            .four-box div:nth-child(3){
+                background-color: #eaf4f8;
+            }
+            .four-box div:nth-child(even){
+                background-color: #fff3f3;
+            }
+            .four-box div span{
+                position: absolute;
+                top: 80%;
+                left: 15%;
+            }
+            .line::after{
+              content: "";
+              position: absolute;
+              height: 3px;
+              background-color: black;
+              width: 0%;
+              left: 0;
+              bottom: -5px;
+              transition: 0.5s;
+            }
+            .line:hover:after{
+              width: 100%;
+            }
+            .description div{
+                height: 300px;
+             
+            }
+            .left{
+                background-image: url("https://mobirise.com/extensions/personam4/assets/images/mbr-1.jpg");
+                height: 400px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .right{
+                background-image: url("https://mobirise.com/extensions/personam4/assets/images/mbr-4.jpg");
+                height: 400px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+      <div class="container-fluid container-size position-relative">
+        <div class="banner-image"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 banner-text d-flex flex-column justify-content-center align-items-md-start align-items-center">
+                   <span class="text-white">Carft Shop</span>
+                   <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar efficitur risus. Nulla elementum suscipit odio</p>
+                   <button class="bg-transparent text-uppercase p-3 pl-5 pr-5 border border-white position-relative">View more</button>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row mt-4">
+            <div class="col-md-3  four-box p-3  position-relative">
+               <div style="background-color: #d7edd8;" class="p-3"> 
+                <h1 class="mb-5">Style</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitdo eiusmod temporeum dicant partem scripserit.</p>
+                <span class="line" style="margin-bottom: -20px;">View more</span>
+               </div> 
+            </div>
+            <div class="col-md-3  four-box p-3  position-relative">
+                <div style="background-color: #fff3f3;" class="p-3"> 
+                 <h1 class="mb-5">Style</h1>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitdo eiusmod temporeum dicant partem scripserit.</p>
+                 <span class="line" style="margin-bottom: -20px;">View more</span>
+                </div> 
+             </div>
+             <div class="col-md-3  four-box p-3  position-relative">
+                <div style="background-color: #d7edd8;" class="p-3"> 
+                 <h1 class="mb-5">Style</h1>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitdo eiusmod temporeum dicant partem scripserit.</p>
+                 <span class="line" style="margin-bottom: -20px;">View more</span>
+                </div> 
+             </div>
+             <div class="col-md-3  four-box p-3  position-relative">
+                <div style="background-color: #fff3f3;" class="p-3"> 
+                 <h1 class="mb-5">Style</h1>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitdo eiusmod temporeum dicant partem scripserit.</p>
+                 <span class="line" style="margin-bottom: -20px;">View more</span>
+                </div> 
+             </div>
+            <br/>
+            <br/>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row description">
+            <div class="col-md-6 d-flex flex-row align-items-center">
+                <h1 class="display-4 text-right">A new way to create design for you</h1>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitdo eiusmod temporeum dicant partem scripserit. Lorem ipsum dolor sit amet, consec tetur adipiscing elit adipiscing elitdo.</p>
+                <span style="font-size: 20px;" class="text-uppercase mt-3">View more</span>
+            </div>
+        </div>
+      </div>
+      <div style="background-color: #fff3f3;" class="pt-5">
+        <h1 class="text-center" style="font-size: 50px; font-family: sans-serif;">Make Your Style Today</h1>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 left"></div>
+                <div class="offset-md-2 col-md-4 right"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">Ideas<br/>Projects</div>
+                <div class="offset-md-2 col-md-4">Skills<br/>Portfolio</div>
+            </div>
+        </div>
+      </div>
+    </body>
+</html>
